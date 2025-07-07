@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Crimson Runner",
+    "price": 32000,
+    "image": "./item1.png",
+    "description": "Бордовые кроссовки с премиальной отделкой и уникальным дизайном.",
+    "sizes": {
+      "38": true,
+      "39": true,
+      "40": false,
+      "41": true,
+      "42": false
+    }
+  },
+  {
+    "id": 2,
+    "name": "Urban Ghost",
+    "price": 29500,
+    "image": "./item2.png",
+    "description": "Серые кроссовки с отражающими вставками и городской эстетикой.",
+    "sizes": {
+      "38": false,
+      "39": true,
+      "40": true,
+      "41": true,
+      "42": true
+    }
+  },
+  {
+    "id": 3,
+    "name": "Midnight Flow",
+    "price": 31000,
+    "image": "./item3.png",
+    "description": "Чёрная модель с флуоресцентной подошвой для вечерних прогулок.",
+    "sizes": {
+      "38": true,
+      "39": true,
+      "40": true,
+      "41": false,
+      "42": true
+    }
+  },
+  {
+    "id": 4,
+    "name": "Sakura Sky",
+    "price": 29900,
+    "image": "./item4.png",
+    "description": "Нежные розово-белые оттенки, вдохновлённые японской весной.",
+    "sizes": {
+      "38": true,
+      "39": false,
+      "40": false,
+      "41": true,
+      "42": true
+    }
+  },
+  {
+    "id": 5,
+    "name": "Blaze Pulse",
+    "price": 33500,
+    "image": "./item5.png",
+    "description": "Огненный дизайн с акцентами красного и золотого.",
+    "sizes": {
+      "38": true,
+      "39": true,
+      "40": true,
+      "41": true,
+      "42": true
+    }
+  },
+  {
+    "id": 6,
+    "name": "Frozen Drift",
+    "price": 28000,
+    "image": "./item6.png",
+    "description": "Ледяная эстетика с голубыми элементами и прозрачной подошвой.",
+    "sizes": {
+      "38": false,
+      "39": true,
+      "40": true,
+      "41": false,
+      "42": false
+    }
+  }
+]

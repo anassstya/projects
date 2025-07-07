@@ -1,0 +1,56 @@
+.contacts{
+  background-color: #dfdfdf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 4rem 5rem 4rem;
+  min-height: 80vh;
+
+  .contactsHeader{
+    font-family: "Rubik Bubbles", sans-serif;
+    font-size: 2.5rem;
+  }
+
+  .pics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 4rem;
+    font-size: 1.5rem;
+    padding: 0;
+    text-align: center;
+
+    li{
+      span{
+        color: darkred;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  img{
+    border-radius: 20px;
+    width: 35rem;
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 856px) {
+    padding: 2rem;
+
+    .pics{
+      flex-direction: column;
+    }
+    img{
+      width: 45rem;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.collection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1.1rem 3rem;
+  gap: 1rem;
+
+  .collection__card{
+    background-color: #dfdfdf;
+    text-align: center;
+    width: 30%;
+    border: 2px solid darkred;
+    border-radius: 20px;
+    padding: 0.5rem;
+
+    img{
+      width: 20rem;
+    }
+
+    h3{
+      font-family: "Rubik Bubbles", sans-serif;
+      font-size: 1.8rem;
+
+      &:hover{
+        cursor: pointer;
+        color: darkred;
+      }
+    }
+
+    .description{
+      font-family: "Work Sans", sans-serif;
+      font-size: 1.2rem;
+    }
+
+    .price{
+        font-family: "Work Sans", sans-serif;
+        font-size: 1.4rem;
+        color: darkred;
+        font-weight: bold;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .collection__card{
+      width: 45%;
+    }
+  }
+}

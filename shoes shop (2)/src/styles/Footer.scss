@@ -1,0 +1,51 @@
+footer{
+  background-color: #000000;
+  color: #A9A9A9;
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 3rem;
+  font-size: 1.2rem;
+
+  .logo{
+    font-family: "Rubik Bubbles", cursive;
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  div{
+    width: 20%;
+  }
+
+  .footerHeader{
+    color: white;
+    justify-self: flex-start;
+  }
+
+  img{
+    width: 2rem;
+  }
+
+  .social-medias{
+    display: flex;
+    gap: 10px;
+  }
+
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+
+  ul{
+    list-style: none;
+    padding: 0;
+
+    li{
+      padding: 3px 0;
+      &:hover {
+        cursor: pointer;
+        color: #b63842;
+      }
+    }
+  }
+}

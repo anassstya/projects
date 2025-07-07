@@ -1,0 +1,56 @@
+.aboutContainer{
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.4rem;
+  padding: 2.2rem 8rem 2rem 8rem;
+  background-color: #dfdfdf;
+
+  .mainText{
+    text-align: center;
+  }
+
+  img{
+    width: 40rem;
+    border-radius: 20px;
+    align-self: center;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .containerText{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    p{
+      color: darkred;
+      font-weight: 700;
+    }
+  }
+
+  @media (max-width: 856px) {
+    padding: 3rem 2rem 3rem 2rem;
+
+    img{
+      width: 40rem;
+    }
+    .container{
+      flex-direction: column;
+    }
+    .containerText{
+        align-items: center;
+        text-align: center;
+        margin: 0;
+
+      ul{
+        list-style: none;
+      }
+    }
+    p{
+      margin: 0;
+    }
+  }
+}

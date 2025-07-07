@@ -1,0 +1,109 @@
+header {
+  background-color: #ffffff;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  width: 100%;
+  padding: 1.1rem 8rem;
+  box-sizing: border-box;
+
+  div {
+    display: flex;
+    gap: 2rem;
+  }
+
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    color: darkred;
+    font-size: 2.2rem;
+    align-self: center;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+
+    .item {
+      color: black;
+      text-transform: none;
+      font-weight: 400;
+      font-size: 1.1rem;
+      align-self: center;
+
+      &:hover {
+        cursor: pointer;
+        color: #b63842;
+      }
+    }
+  }
+
+  img {
+    width: 3rem;
+    height: 2.8rem;
+    cursor: pointer;
+  }
+  .burgerMenu, .cross{
+    display: none;
+  }
+
+  @media (max-width: 1200px) {
+    padding: 1rem 4rem;
+  }
+
+  @media (max-width: 768px) {
+    .burgerMenu{
+      display: block;
+    }
+    ul {
+      display: none;
+    }
+    .closed{
+      display: none;
+    }
+    .cross{
+      display: block;
+      width: 15px;
+      position: absolute;
+      top: 15px;
+      right: 20px;
+    }
+    .open{
+        width: 25%;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #dfdfdf;
+        opacity: 0.95;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 4rem 2rem;
+
+        li {
+            font-size: 1.3rem;
+            color: darkred;
+            text-transform: uppercase;
+            font-weight: 700;
+            cursor: pointer;
+        }
+    }
+  }
+
+  @media (max-width: 576px) {
+    padding: 1rem 2rem;
+    .cross{
+      width: 10px;
+    }
+  }
+
+}
+
